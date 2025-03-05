@@ -5,8 +5,9 @@ from keras import models
 import numpy as np
 from PIL import Image
 import string
-import random
 import os
+import random
+
 
 # Adding path to config
 app.config['INITIAL_FILE_UPLOADS'] = 'app/static/uploads'
